@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SAE MMMUT - Dark Carnival</title>
+  <link rel="stylesheet" href="sae2.css">
+</head>
+<body>
+  <!-- Floating carnival elements -->
+  <div class="carnival-float">🎪</div>
+  <div class="carnival-float">🎭</div>
+  <div class="carnival-float">🎠</div>
+  <div class="carnival-float">🎡</div>
+  <div class="carnival-float">🎯</div>
+
+  <header>
+    <nav>
+      <div class="logo">🎪 SAE MMMUT</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#register">Register</a></li>
+        <li><a href="#team">Our Team</a></li>
+        <li><a href="#sponsors">Sponsors</a></li>
+        <li><a href="#creators">Creators</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="hero">
+    <div class="hero-content">
+      <h1 class="hero-title">UNLEASH YOUR ENGINEERING DARKNESS</h1>
+      <p class="hero-subtitle">
+        Welcome to the SAE MMMUT ! Step into our twisted world of automotive engineering, 
+        where innovation meets madness and creativity knows no bounds. Join our haunted collective of engineers!
+      </p>
+      <button class="cta-button">Join the Carnival</button>
+    </div>
+
+    <div class="stats-container">
+      <div class="stats-circle">
+        <div class="stats-content">
+          <div class="stats-number">500+</div>
+          <div class="stats-label">Twisted Minds Connected</div>
+        </div>
+      </div>
+
+      <!-- Floating icons around the circle -->
+      <div class="floating-icon icon-1">🏎️</div>
+      <div class="floating-icon icon-2">⚙️</div>
+      <div class="floating-icon icon-3">🔧</div>
+      <div class="floating-icon icon-4">🏁</div>
+      <div class="floating-icon icon-5">🛠️</div>
+    </div>
+  </main>
+
+  <!-- Our Programs Section -->
+  <section class="programs-section" id="events">
+    <div class="programs-container">
+      <h2 class="programs-title">Our Engineering Divisions</h2>
+      <p class="programs-subtitle">We forge leaders and technical mastery in the shadows of innovation</p>
+      
+      <div class="programs-grid">
+        <div class="program-card disco">
+          <div class="program-image">
+            <div class="image-overlay">💻</div>
+          </div>
+          <div class="program-content">
+            <h3>DISCO - Digital Sub Council</h3>
+            <p>Enter the digital realm where code meets chaos. Our hackers craft software solutions, dominate coding contests, and orchestrate hackathons that blur the line between genius and madness.</p>
+            <button class="program-btn">Join the Code</button>
+          </div>
+        </div>
+
+        <div class="program-card baja">
+          <div class="program-image">
+            <div class="image-overlay">🏎️</div>
+          </div>
+          <div class="program-content">
+            <h3>BAJA</h3>
+            <p>Build machines that devour terrain and conquer the impossible. Our warriors engineer off-road beasts that survive the most brutal competitions and harshest conditions.</p>
+            <button class="program-btn">Build Beasts</button>
+          </div>
+        </div>
+
+        <div class="program-card aero">
+          <div class="program-image">
+            <div class="image-overlay">✈️</div>
+          </div>
+          <div class="program-content">
+            <h3>Aeromodeling</h3>
+            <p>Command the skies with precision-engineered flying machines. Our aerial architects design aircraft that dance through clouds and dominate national competitions.</p>
+            <button class="program-btn">Take Flight</button>
+          </div>
+        </div>
+
+        <div class="program-card supra">
+          <div class="program-image">
+            <div class="image-overlay">🏁</div>
+          </div>
+          <div class="program-content">
+            <h3>SUPRA</h3>
+            <p>Craft lightning-fast formula race cars that blur past the competition. Our speed sorcerers focus on vehicle dynamics, performance, and track-dominating innovation.</p>
+            <button class="program-btn">Race Hell</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Registration Section -->
+  <section class="registration-section" id="register">
+    <div class="registration-container">
+      <h2 class="registration-title">JOIN THE  CARNIVAL</h2>
+      <p class="registration-subtitle">Step into our twisted world of engineering excellence</p>
+      
+      <div class="registration-content">
+        <div class="registration-form-container">
+          <form class="registration-form" id="registrationForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" name="firstName" required>
+              </div>
+              <div class="form-group">
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" name="lastName" required>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" required>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="college">College/University</label>
+                <input type="text" id="college" name="college" required>
+              </div>
+              <div class="form-group">
+                <label for="year">Year of Study</label>
+                <select id="year" name="year" required>
+                  <option value="">Select Year</option>
+                  <option value="1st Year">1st Year</option>
+                  <option value="2nd Year">2nd Year</option>
+                  <option value="3rd Year">3rd Year</option>
+                  <option value="4th Year">4th Year</option>
+                  <option value="Graduate">Graduate</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="branch">Engineering Branch</label>
+                <select id="branch" name="branch" required>
+                  <option value="">Select Branch</option>
+                  <option value="Mechanical">Mechanical Engineering</option>
+                  <option value="Automobile">Automobile Engineering</option>
+                  <option value="Computer Science">Computer Science</option>
+                  <option value="Electronics">Electronics & Communication</option>
+                  <option value="Electrical">Electrical Engineering</option>
+                  <option value="Civil">Civil Engineering</option>
+                  <option value="Aerospace">Aerospace Engineering</option>
+                  <option value="Other">Other</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="interest">Primary Interest</label>
+                <select id="interest" name="interest" required>
+                  <option value="">Choose Your Path</option>
+                  <option value="DISCO">DISCO - Digital Sub Council</option>
+                  <option value="BAJA">BAJA - Off-road Vehicles</option>
+                  <option value="Aeromodeling">Aeromodeling - Aircraft Design</option>
+                  <option value="SUPRA">SUPRA - Formula Racing</option>
+                  <option value="General">General Membership</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group full-width">
+              <label for="experience">Previous Experience (Optional)</label>
+              <textarea id="experience" name="experience" rows="4" placeholder="Tell us about your engineering projects, competitions, or relevant experience..."></textarea>
+            </div>
+
+            <div class="form-group full-width">
+              <label for="motivation">Why do you want to join SAE MMMUT?</label>
+              <textarea id="motivation" name="motivation" rows="4" placeholder="Share your motivation and what you hope to achieve..." required></textarea>
+            </div>
+
+            <div class="form-group checkbox-group">
+              <label class="checkbox-label">
+                <input type="checkbox" id="terms" name="terms" required>
+                <span class="checkmark"></span>
+                I agree to the terms and conditions of SAE MMMUT
+              </label>
+            </div>
+
+            <div class="form-group checkbox-group">
+              <label class="checkbox-label">
+                <input type="checkbox" id="newsletter" name="newsletter">
+                <span class="checkmark"></span>
+                Subscribe to our newsletter for updates and events
+              </label>
+            </div>
+
+            <button type="submit" class="submit-btn">
+              <span>JOIN THE CARNIVAL</span>
+              <div class="btn-overlay"></div>
+            </button>
+          </form>
+        </div>
+
+        <div class="registration-info">
+          <div class="info-card">
+            <div class="info-icon">🎪</div>
+            <h3>What You Get</h3>
+            <ul>
+              <li>Access to exclusive workshops</li>
+              <li>National competition opportunities</li>
+              <li>Industry mentorship programs</li>
+              <li>Technical skill development</li>
+              <li>Networking with professionals</li>
+            </ul>
+          </div>
+
+          <div class="info-card">
+            <div class="info-icon">⚙️</div>
+            <h3>Requirements</h3>
+            <ul>
+              <li>Engineering student or graduate</li>
+              <li>Passion for automotive/aerospace</li>
+              <li>Commitment to learning</li>
+              <li>Team collaboration spirit</li>
+              <li>Innovation mindset</li>
+            </ul>
+          </div>
+
+          <div class="info-card">
+            <div class="info-icon">🏆</div>
+            <h3>Success Stories</h3>
+            <ul>
+              <li>500+ members nationwide</li>
+              <li>50+ competition wins</li>
+              <li>100+ industry placements</li>
+              <li>25+ successful startups</li>
+              <li>Endless possibilities</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="dark-footer">
+    <div class="footer-wave">
+      <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" fill="currentColor"></path>
+        <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" fill="currentColor"></path>
+        <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" fill="currentColor"></path>
+      </svg>
+    </div>
+    
+    <div class="footer-content">
+      <div class="footer-section">
+        <div class="footer-logo">
+          <h3>🎪 SAE MMMUT</h3>
+        </div>
+        <div class="newsletter-section">
+          <h4>JOIN THE CARNIVAL</h4>
+          <p>Get updates from the shadows of engineering</p>
+          <div class="newsletter-form">
+            <input type="email" placeholder="Enter your email" class="email-input">
+            <button class="subscribe-btn">Subscribe</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-section">
+        <h4>Society Headquarters</h4>
+        <div class="address-info">
+          <p>Gorakhpur, Uttar Pradesh.</p>
+          <p>Madan Mohan Malaviya University of Technology</p>
+          <p>Gorakhpur 273010, UP, India</p>
+          <p>📧 sae@mmmut.ac.in</p>
+          <p>📱 +91-XXX-XXX-XXXX</p>
+        </div>
+      </div>
+
+      <div class="footer-section">
+        <h4>Our Socials</h4>
+        <div class="social-links">
+          <a href="#" class="social-icon instagram">📷</a>
+          <a href="#" class="social-icon linkedin">💼</a>
+          <a href="#" class="social-icon github">💻</a>
+          <a href="#" class="social-icon youtube">🎥</a>
+          <a href="#" class="social-icon twitter">🐦</a>
+        </div>
+        <div class="quick-links">
+          <h5>Quick Links</h5>
+          <ul>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#register">Register</a></li>
+            <li><a href="#team">Our Team</a></li>
+            <li><a href="#sponsors">Sponsors</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2025 SAE MMMUT Chapter | Engineered in the Shadows 🎭⚙️</p>
+      <p>All rights reserved | Where Innovation Meets Darkness</p>
+    </div>
+  </footer>
+    <script src="sae.js"></script>
